@@ -7,17 +7,20 @@ function checkDisplayInfoEmail() {
   // Check if localStorage is available (IE8+)
   if (typeof window.localStorage !== "undefined") {
     // Your work starts here
+    
   }
 }
 
 // Trigger checkbox event to hide/show the info
 infoShowCheckbox.addEventListener("change", function () {
   // Your work starts here
+  
 });
 
 // Trigger checkbox event to hide/show the email
 emailHideCheckbox.addEventListener("change", function () {
   // Your work starts here
+  document.querySelector("x-info").style.display = "none";
 });
 
 // When the page is loaded
