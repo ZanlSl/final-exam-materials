@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Replace "Your Full Name" with your name here  -->
-  <title>Your Full Name's Weekly Meal Plan</title>
+  <title>Huynh Phan Anh's Weekly Meal Plan</title>
 
   <!-- Include your favicon here -->
 
@@ -22,6 +22,60 @@
 <body>
   <main class="wrapper">
     <!-- Your main code starts here -->
+      <div id="profile">
+        <!--Info of your profile-->
+        <div class="p-image">
+          <img src="materials\image\picture.png" alt="profile image">
+        </div>
+        <div class="p-info">
+          <h1>Huynh Phan Anh's Weekly Meal Plan</h1>
+        </div>
+      </div>
+      <!--check boxes for display email or not-->
+      <div class="p-display">
+        <div class="container">
+          <label id="is_info_show">Display full information
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="container">
+          <label id="is_email_hidden">Do not show my email
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <div id="meal-list-header">
+        <h3>Meals list</h3>
+        <button>Refresh</button>
+      </div>
+      <div id="meal-list">
+        <div class="meal">
+          <img src="materials\image\picture.png" width="200px" alt="meal-img">
+          <div class="meal-info">
+            <h4>Meal Name</h4>
+            <div class="badge">Day of Week</div>
+            <div class="badge">Meal type</div>
+          </div>
+        </div>
+        <div class="meal">
+          <img src="materials\image\picture.png" width="200px" alt="meal-img">
+          <div class="meal-info">
+            <h4>Meal Name</h4>
+            <div class="badge">Day of Week</div>
+            <div class="badge">Meal type</div>
+          </div>
+        </div>
+        <div class="meal">
+          <img src="materials\image\picture.png" width="200px" alt="meal-img">
+          <div class="meal-info">
+            <h4>Meal Name</h4>
+            <div class="badge">Day of Week</div>
+            <div class="badge">Meal type</div>
+          </div>
+        </div>
+      </div>
   </main>
 
   <footer>
